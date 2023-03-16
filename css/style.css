@@ -58,5 +58,8 @@ header {
 }
 
 img {
-    width: 80px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
 }
