@@ -16,10 +16,7 @@ header {
 
     text-align: center;
 }
-.row: {
-    margin-top: 40px;
 
-}
 
 
 
@@ -32,7 +29,7 @@ header {
 /* contenitore */
 .row {
     margin-top: 40px;
-    
+   
 }
 
 .row::after {
@@ -46,19 +43,22 @@ header {
     float: left;
     width: calc((100%/3) - 27px);
     margin: 0 10px;
-    background-color: rgb(21, 18, 27);
-
+    background-color: #15121b;
+    box-shadow: 5px 5px 5px  rgba(26, 17, 17, 0.5);
+    
 }
 
 .corp {
     display: inline-block;
     color: bisque;
-    vertical-align: 10px;
-  
+    vertical-align: middle;
+    
 }
 
 img {
     width: 100px;
+    vertical-align: middle;
+   
 }
 a{
     text-decoration: none;
