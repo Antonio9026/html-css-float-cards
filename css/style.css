@@ -4,20 +4,29 @@
     box-sizing: border-box;
 }
 /* de bug */
-.row{
-    border: solid 4px;
+
+
+/* .content{
+    width: 80%;
+    margin: 80px auto;
+    
+   
+}
+.row:{
+ margin-top: 40px;
+ border:  solid 20px blue;
+} */
+
+.row::after{
+    content: "";
+    display:table;
+    clear:both;
 }
 .col{
-    height: 250px;
-    background-color: blueviolet;
-    border: solid 2px rgb(3, 5, 2);
     float: left;
     width: calc(100%/3);
-   
+    border:  solid 40px rgb(255, 255, 255);
+    background-color: black;
     
-}
-.content{
-    width: 50%;
-    margin: 15px auto;
-   
+       
 }
