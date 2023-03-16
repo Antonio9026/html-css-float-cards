@@ -1,32 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* de bug */
 
 
-/* .content{
+body {
     width: 80%;
-    margin: 80px auto;
-    
-   
-}
-.row:{
- margin-top: 40px;
- border:  solid 20px blue;
-} */
+    margin: 0px auto;
+    font-family: 'Fredoka', sans-serif;
 
-.row::after{
-    content: "";
-    display:table;
-    clear:both;
 }
-.col{
-    float: left;
-    width: calc(100%/3);
-    border:  solid 40px rgb(255, 255, 255);
-    background-color: black;
+/* Titolo */
+header {
+
+    text-align: center;
+}
+.row: {
+    margin-top: 40px;
+
+}
+
+
+
+#titolo {
+    color: rgb(228, 91, 119);
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/* contenitore */
+.row {
+    margin-top: 40px;
     
-       
+}
+
+.row::after {
+
+    content: "";
+    display: table;
+    clear: left;
+}
+/* card */
+.col {
+    float: left;
+    width: calc((100%/3) - 27px);
+    margin: 0 10px;
+    background-color: rgb(21, 18, 27);
+
+}
+
+.corp {
+    display: inline-block;
+    color: bisque;
+    vertical-align: 10px;
+  
+}
+
+img {
+    width: 80px;
 }
