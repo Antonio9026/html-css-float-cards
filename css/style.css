@@ -41,11 +41,11 @@ header {
 /* card */
 .col {
     float: left;
-    width: calc((100%/3) - 27px);
+    width: calc((100%/3) - 20px);
     margin: 0 10px;
     background-color: #15121b;
     box-shadow: 5px 5px 5px  rgba(26, 17, 17, 0.5);
-    
+    overflow: auto;
 }
 
 .corp {
